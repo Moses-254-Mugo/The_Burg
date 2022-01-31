@@ -10,6 +10,7 @@ body{
     padding: 0;
 }
 .navbar{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,6 +33,7 @@ body{
     font-size: 19px;
     display: inline-block;
     padding: 8px 20px;
+    font-weight: 700;
 }
 .navbar-links li a:hover{
     border-bottom: 6px solid #f6b637;
@@ -52,6 +54,53 @@ body{
     background-color: #000;
     border-radius: 10px;
 }
+.logo span{
+    color: #f6b637;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+
+}
+
+/* Banner styling */
+.banner{
+    background: url(../images/TheBurgar.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.content{
+    margin-top: 8rem;
+}
+.content h1{
+    font-weight: 700;
+}
+.content-p{
+    margin: 3rem 0;
+    color: #bbb;
+    font-weight: 700;
+}
+.banner-btn{
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    background-color: #f4a516;
+    border-radius: 50px 40px 0 50px ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* @media query makes columns lie on top 
