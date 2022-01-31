@@ -265,6 +265,27 @@ form button{
     border-radius: 0 5px 5px 0;
 } 
 
+/* footer 2 styling */
+.footer-2{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    
+}
+.footer-2 .social-media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-2 .social-media li{
+    list-style-type: none;
+    margin: 10px;
+}
+.footer-2 .social-media li a{
+    display: block;
+}
+
 
 
 
