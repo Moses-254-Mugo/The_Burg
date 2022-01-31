@@ -115,7 +115,7 @@ body{
 }
 /* menu styling */
 .menu{
-    padding: 30px;
+    padding: 30px 0;
 }
 .menu-h1{
     text-align: center;
@@ -145,12 +145,78 @@ body{
 }
 
 
+/* Double decker styling */
+.double-docker-sec{
+    padding: 60px;
+    background-color: #f7fdf7;
+}
+.double-d{
+    padding: 30px;
+    margin-top: 6rem;
+}
+.double-d h1{
+    font-weight: 700;
+}
+.double-d .fas{
+    margin: 30px;
+}
+.double-d-arrow, .double-d-h1{
+    color: #f6b637;
+}
+.fas{
+    margin: 10px;
+}
+.p-fas{
+    margin-top: 90px;
+}
+.dd-img{
+    background: url(../images/doubledecker.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15rem;
+    /* height: 100vh; */
+}
 
 
+/* more styling */
+.more-sec{
+    background-color: #f6b637;
+    padding: 30px;
+}
+.discover-para{
+    margin-top: 10rem;
+}
+.discover-para h2{
+    font-weight: 700;
+}
+.download{
+    margin-top:5rem ;
+}
+.mobile-designs{
+    margin-top: 4rem;
+}
+.mobile-icon{
+    box-shadow: 0 0 10px;
+    border-radius: 5%;
+    margin: 10px;
+}
 
-
-
-
+/* footer styling */
+.footer{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#f7fdf7;
+    text-align: center;
+   
+}
+.footer-logo{
+    padding: 15px;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+}
 
 
 
